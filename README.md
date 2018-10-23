@@ -14,3 +14,5 @@
 ## Config
 
 `backstop.config.js` is the main config file. There are seperate config files for paths, scenarios and viewports in `backstop/config` directory.
+
+The base config is set to use Google's [Puppeteer](https://github.com/GoogleChrome/puppeteer) engine.
