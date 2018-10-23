@@ -1,0 +1,17 @@
+{
+  "name": "_backstopjs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vreg:reference": "backstop reference --docker --config=backstop/backstop.config.js",
+    "vreg:test": "backstop test --docker --config=backstop/backstop.config.js",
+    "vreg:approve": "backstop approve --config=backstop/backstop.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "backstopjs": "^3.7.0"
+  }
+}
